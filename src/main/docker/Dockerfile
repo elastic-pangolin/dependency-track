@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17.0.6_10-jre-focal@sha256:a83901e0a1561059f967f772b9a733643a4694015e7d8f31f0f5b2481786fbc4 AS jre-build
+FROM eclipse-temurin:19.0.2_7-jre-focal@sha256:4f646d9ba7737e089a937d7a40427f8757f366829a03937b37112e2db5264b54 AS jre-build
 
 FROM debian:bullseye-20230522-slim@sha256:7606bef5684b393434f06a50a3d1a09808fee5a0240d37da5d181b1b121e7637
 
