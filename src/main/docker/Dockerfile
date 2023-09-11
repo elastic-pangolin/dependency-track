@@ -1,6 +1,6 @@
 FROM eclipse-temurin:17.0.6_10-jre-focal@sha256:a83901e0a1561059f967f772b9a733643a4694015e7d8f31f0f5b2481786fbc4 AS jre-build
 
-FROM debian:bullseye-20230522-slim@sha256:7606bef5684b393434f06a50a3d1a09808fee5a0240d37da5d181b1b121e7637
+FROM debian:bullseye-20230904-slim@sha256:3bc5e94a0e8329c102203c3f5f26fd67835f0c81633dd6949de0557867a87fac
 
 # Arguments that can be passed at build time
 # Directory names must end with / to avoid errors when ADDing and COPYing
